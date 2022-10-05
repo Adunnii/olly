@@ -1,0 +1,315 @@
+.about{
+    margin-top: 20rem;
+    padding: 5rem;
+    width: 100%;
+    position: sticky;
+    background-color: $color-primary-white;
+
+    @media screen and (max-width:$xl) {
+       padding: 5rem;
+       width: 123rem;
+       height: 70rem;
+    }
+    @media screen and (max-width:$l) {
+        padding: 5rem;
+        width: 101rem;
+        height: 70rem;
+    }
+    @media screen and (max-width:$m) {
+        padding: 5rem;
+        height: 70rem;
+        width: 76rem;
+    }
+    @media screen and (max-width:$s) {
+        padding: 5rem;
+        height: 70rem;
+        width: 50rem;
+      }
+ 
+ 
+    &-text{
+        color: #545454;
+        font-weight: 900;
+        text-align: center;
+
+
+        &_paragraph{
+            color: $color-primary-grey;
+            text-align: center;
+            padding: 5rem;
+        }
+    }
+}
+
+
+.rule{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 10rem;
+
+
+    @media screen and (max-width:$xl) {
+        display: block;
+    }
+
+    @media screen and (max-width:$l) {
+        display: block;
+    }
+    @media screen and (max-width:$m) {
+        display: block;
+    }
+    @media screen and (max-width:$s) {
+        display: block;
+    }
+
+    &__text{
+        color: $color-primary-orange;
+        margin-top: -1rem;
+    }
+
+}
+
+.typography{
+    width:35rem;
+    height: .5rem;
+    background-color: $color-primary-grey;
+    position: relative;
+    
+    
+    @media screen and (max-width:$xl) {
+        width:32rem;
+        margin-bottom: 5rem;
+    }
+    
+    @media screen and (max-width:$l) {
+        width:32rem;
+        
+        margin-bottom: 5rem;
+    }
+    @media screen and (max-width:$m) {
+        margin-bottom: 5rem;
+        width:32rem;
+        
+    }
+    @media screen and (max-width:$s) {
+        width:32rem;
+        margin-bottom: 5rem;
+
+    }
+    &__box{
+        height: 3rem;
+        width: 6rem;
+        background-color:$color-primary-orange;
+        position: relative;
+        border-radius: 10%;
+        top: -5.5rem;
+        left: 18rem;
+        text-align: center;
+        padding: .5rem;
+        color: $color-primary-white;
+
+        &-arrowdown{
+            width: 0; 
+            height: 0; 
+            border-left: 20px solid transparent;
+            border-right: 20px solid transparent;
+            position: absolute;
+           bottom:-11px;
+           left: 50%;
+           transform: translateX(-50% );
+            border-top: 20px solid $color-primary-orange;
+        }
+
+    }
+
+    &__color{
+        background-color:$color-primary-orange;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 20rem;
+        height: .5rem;
+        
+        
+        &-dot{
+            height: 1rem;
+            width: 1rem;
+            border-radius: 50%;
+            position: absolute;
+            top: 50%;
+            left: 20rem;
+            background-color:$color-primary-orange;
+            transform: translateY(-50%);
+            
+        }
+    }
+
+}
+.design{
+    width: 35rem;
+    height: .5rem;
+    background-color: $color-primary-grey;
+    position: relative;
+
+    @media screen and (max-width:$xl) {
+        margin-bottom: 8rem;
+        margin-top: 10rem;
+        width: 32rem;
+    }
+    
+    @media screen and (max-width:$l) {
+        width: 32rem;
+        margin-top: 10rem;
+        margin-bottom: 8rem;
+    }
+    @media screen and (max-width:$m) {
+        margin-bottom: 8rem;
+        margin-top: 10rem;
+        width: 32rem;
+        
+    }
+    @media screen and (max-width:$s) {
+        margin-bottom: 8rem;
+        margin-top: 10rem;
+        width: 32rem;
+        
+    }
+
+
+    &__text{
+     margin-top: -2rem;
+        color: $color-primary-yellow;
+    }
+
+    &__box{
+        height: 3rem;
+        width: 6rem;
+        background-color:$color-primary-yellow;
+        position: relative;
+        border-radius: 10%;
+        top: -5.5rem;
+        left: 18rem;
+        text-align: center;
+        padding: .5rem;
+        color: $color-primary-white;
+
+
+        &-arrowdown{
+            width: 0; 
+            height: 0; 
+            border-left: 20px solid transparent;
+            border-right: 20px solid transparent;
+            position: absolute;
+           bottom:-11px;
+           left: 50%;
+           transform: translateX(-50% );
+            border-top: 20px solid $color-primary-yellow;
+        }
+
+    }
+    &__color{
+        background-color:$color-primary-yellow;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 20rem;
+        height: .5rem;
+        
+        
+        &-dot{
+            height: 1rem;
+            width: 1rem;
+            border-radius: 50%;
+            position: absolute;
+            top: 50%;
+            left: 20rem;
+            background-color:$color-primary-yellow;
+            transform: translateY(-50%);
+            
+        }
+    }
+
+
+}
+.development{
+    width: 35rem;
+    height: .5rem;
+    background-color: $color-primary-grey;
+    position: relative;
+
+
+    @media screen and (max-width:$xl) {
+       
+        width: 32rem;
+    }
+    
+    @media screen and (max-width:$l) {
+        width: 32rem;
+     
+    }
+    @media screen and (max-width:$m) {
+       
+        width: 32rem;
+        
+    }
+    @media screen and (max-width:$s) {
+       
+        width: 32rem;
+        
+    }
+
+    &__text{
+        color: $color-primary-purple;
+    }
+
+    &__box{
+        height: 3rem;
+        width: 6rem;
+        background-color:$color-primary-purple;
+        position: relative;
+        border-radius: 10%;
+        top: -5.5rem;
+        left: 18rem;
+        text-align: center;
+        padding: .5rem;
+        color: $color-primary-white;
+
+
+        &-arrowdown{
+            width: 0; 
+            height: 0; 
+            border-left: 20px solid transparent;
+            border-right: 20px solid transparent;
+            position: absolute;
+           bottom:-11px;
+           left: 50%;
+           transform: translateX(-50% );
+            border-top: 20px solid $color-primary-purple;
+        }
+
+    }
+    &__color{
+        background-color:$color-primary-purple;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 20rem;
+        height: .5rem;
+        
+        
+        &-dot{
+            height: 1rem;
+            width: 1rem;
+            border-radius: 50%;
+            position: absolute;
+            top: 50%;
+            left: 20rem;
+            background-color:$color-primary-purple;
+            transform: translateY(-50%);
+            
+        }
+    }
+
+
+}
